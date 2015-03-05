@@ -1,2 +1,2 @@
 # cours
-Support de coursd
+Support de cours
