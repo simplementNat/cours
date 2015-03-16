@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>03 - Prototypage — IHM</title>
+
+		<!-- Piwik -->
+		<script type="text/javascript">
+		  var _paq = _paq || [];
+		  _paq.push(['trackPageView']);
+		  _paq.push(['disableCookies']);
+		  _paq.push(['enableLinkTracking']);
+		  (function() {
+		    var u="//piwik.simplement-web.com/";
+		    _paq.push(['setTrackerUrl', u+'piwik.php']);
+		    _paq.push(['setSiteId', 44]);
+		    var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+		    g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
+		  })();
+		</script>
+		<noscript><p><img src="//piwik.simplement-web.com/piwik.php?idsite=44" style="border:0;" alt="" /></p></noscript>
+		<!-- End Piwik Code -->
+
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="../css/swiper.min.css">
+    <link href="../css/font-awesome.css" rel="stylesheet">
+    <link href="../css/lato/stylesheet.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/swiper-custom.css">
+
+</head>
+<body>
+    <!-- Swiper -->
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+        
+            <div class="swiper-slide">
+            	<h1>Interface Homme Machine</h1>
+            	<h2>Prototypage</h2>
+            	<p>Nathanaël Martel</p>
+            </div>
+            
+            <div class="swiper-slide">
+            	<h1>Prototype&nbsp;: <br />une Maquette Fonctionnelle</h1>
+              
+              <p><i class="fa fa-chevron-right"></i> Un système fonctionnel du produit final</p>
+              
+              <p><i class="fa fa-chevron-right"></i> Une maquette interactive</p>
+              
+              <p><i class="fa fa-chevron-right"></i> Une maquette suffisante pour évaluer l'interface, les performances et le potentiel</p>
+            	
+              
+              <p>… et pourquoi&nbsp;?</p>
+            </div>
+            
+            <div class="swiper-slide">
+              <h1>Pour qui faites vous ce prototype&nbsp;?</h1>
+
+              <p><i class="fa fa-chevron-right"></i> Pour sois-même</p>
+              <p><i class="fa fa-chevron-right"></i> Pour les autres personnes de la même équipe</p>
+              <p><i class="fa fa-chevron-right"></i> Pour les graphiste</p>
+              <p><i class="fa fa-chevron-right"></i> Pour les commanditaires (sponsor, client…)</p>
+              <p><i class="fa fa-chevron-right"></i> Pour les utilisateurs</p>
+            </div>
+            
+            
+            <div class="swiper-slide">
+            	<h1>Pourquoi un prototype&nbsp;?</h1>
+            	
+            	<div class="left">
+            		<ul>
+                  <li>Communiquer plus facilement entre les membres d'une même équipe</li>
+                  <li>Plus simple à comprendre qu'un cahier des charges ou une maquette</li>
+                  <li>Cela permet d'évaluer et d'avoir un retour sur l'interface</li>
+                  <li>Vous pouvez tester vos idées sur vous même</li>
+                  <li>Cela encourage la reflection, permet d'essayer plusieurs pistes</li>
+                  <li>Cela permet de répondre à des questions et donc de faire un choix entre plusieurs possibilités</li>
+            		</ul>
+            	</div>
+            </div>
+            
+            <div class="swiper-slide">
+            	<h1>Qu'est-ce qu'il faut prototyper&nbsp;?</h1>
+            	
+              <p><i class="fa fa-chevron-right"></i> Les problèmes techniques</p>
+              <p><i class="fa fa-chevron-right"></i> Le scénario</p>
+              <p><i class="fa fa-chevron-right"></i> La mise en page et l'affichage de l'information</p>
+              <p><i class="fa fa-chevron-right"></i> Ce qui pose problème…</p>
+            	
+            </div>
+            
+            <div class="swiper-slide">
+            	<h1>Choix de prototypage</h1>
+            
+               <div class="left">
+                 <ul>
+                 	<li>Fidélité (Réalisme)</li>
+                 	<li>Horizontal / Vertical</li>
+                 	<li>Évolutif / Jetable</li>
+                 </ul>
+               </div>
+            </div>
+            
+            <div class="swiper-slide">
+            	<h1>Possibilités</h1>
+              
+							<div class="left">
+								<ul>
+                  <li>croquis, dessins (wireframe)</li>
+                  <li>maquette à base de papier</li>
+									<li>série de croquis de scenes (storyboard)</li>
+									<li>Une présentation linéaire (powerpoint)</li>
+									<li>Une vidéo simulant l'utilisation du système</li>
+									<li>Une maquette physique (bois, carton)</li>
+									<li>Un morceau de logiciel (avec des fonctionnalités limitées)</li>
+								</ul>
+							</div>
+              
+            </div>
+            
+            <div class="swiper-slide">  
+            	<h1>Prototype basse fidélité</h1>
+              
+              <p><i class="fa fa-chevron-right"></i> Papier, crayon, gomme 
+                <br /><i class="fa fa-long-arrow-right"></i> <em> Un croquis de l'aspect extérieur du système prévus </em>
+                <br /><i class="fa fa-long-arrow-right"></i> <em> Facile, évolutive et peu couteuse </em>
+              </p>
+              
+              <p><i class="fa fa-chevron-right"></i> Dans quel cas&nbsp;?
+                <br /><i class="fa fa-long-arrow-right"></i> <em> «&nbsp;brainstorming&nbsp;», tester différentes idées</em>
+                <br /><i class="fa fa-long-arrow-right"></i> <em> Susciter des réactions utilisateurs  </em>
+                <br /><i class="fa fa-long-arrow-right"></i> <em> Susciter des modifications / suggestions  </em>
+              </p>
+            </div>
+            
+            <div class="swiper-slide">
+              <h1>Croquis</h1>
+              
+              <p>Avantages&nbsp;:
+                <br /><i class="fa fa-long-arrow-right"></i> <em> Comme c'est crus, les gens se concentre sur haut niveau d'abstraction</em>
+              </p>
+              
+              <p>Inconvéniant&nbsp;:
+                <br /><i class="fa fa-long-arrow-right"></i> <em> Difficile de montrer un scénario</em>
+              </p>
+            </div>
+            
+            <div class="swiper-slide">
+              <h1>Croquis</h1>
+              <img src="images/sketches-01.jpg" alt="" style="max-width:80%;max-height:80%;" />
+            </div>
+            
+            <div class="swiper-slide">
+              <h1>Croquis</h1>
+              <img src="images/sketches-02.jpg" alt="" style="max-width:80%;max-height:80%;" />
+            </div>
+            
+            <div class="swiper-slide">
+              <h1>Croquis</h1>
+              <img src="images/sketches-03.jpg" alt="" style="max-width:80%;max-height:80%;" />
+            </div>
+            
+            <div class="swiper-slide">
+              <h1>Croquis</h1>
+              <img src="images/sketches-04.jpg" alt="" style="max-width:80%;max-height:80%;" />
+            </div>
+            
+            <div class="swiper-slide">
+              <h1>Croquis</h1>
+              <img src="images/sketches-05.jpg" alt="" style="max-width:80%;max-height:80%;" />
+            </div>
+            
+            <div class="swiper-slide">
+              <h1>Croquis</h1>
+              <img src="images/sketches-06.jpg" alt="" style="max-width:80%;max-height:80%;" />
+            </div>
+            
+            <div class="swiper-slide">
+              <h1>Croquis</h1>
+              <img src="images/sketches-07.jpg" alt="" style="max-width:80%;max-height:80%;" />
+            </div>
+            
+            <div class="swiper-slide">
+              <h1>Croquis</h1>
+              <img src="images/sketches-08.jpg" alt="" style="max-width:80%;max-height:80%;" />
+            </div>
+            
+            <div class="swiper-slide">  
+              <h1>Maquette</h1>
+              
+              <p><i class="fa fa-chevron-right"></i> + post-it, imprimante, ciseaux, colle… 
+                <br /> Impression de pictogrammes, d'éléments d'interfaces, découpage de ces éléments pour pouvoir les manipuler ensuite
+                <br /><i class="fa fa-long-arrow-right"></i> <em> Une maquette papier de l'interface (apparence, fonctionnalité)</em>
+              </p>
+              
+              <p>Avantages&nbsp;:
+                <br /><i class="fa fa-long-arrow-right"></i> <em> Permet de tester des petites interactions (messages d'erreurs, modification partiel de la page…)</em>
+              </p>
+              
+              <p>Inconvéniant&nbsp;:
+                <br /><i class="fa fa-long-arrow-right"></i> <em> On se retrouve très vite avec des bout de papier partout…</em>
+              </p>
+            </div>
+            
+            <div class="swiper-slide">
+              <h1>Maquette</h1>
+              <img src="images/maquette-01.jpg" alt="" style="max-width:80%;max-height:80%;" />
+            </div>
+            
+            <div class="swiper-slide">
+              <h1>Maquette</h1>
+              <img src="images/maquette-02.jpg" alt="" style="max-width:80%;max-height:80%;" />
+            </div>
+            
+            <div class="swiper-slide">
+              <h1>Maquette</h1>
+              <img src="images/maquette-03.jpg" alt="" style="max-width:80%;max-height:80%;" />
+            </div>
+            
+            <div class="swiper-slide">
+              <h1>Storyboarding</h1>
+              
+              <p><i class="fa fa-chevron-right"></i> Une série de croquis ou de maquettes
+                <br /><i class="fa fa-long-arrow-right"></i> <em> pour dérouler un scénario</em>
+                <br /><i class="fa fa-long-arrow-right"></i> <em> montrer quelques points d'interactions particulier </em>
+              </p>
+              
+              <p><i class="fa fa-chevron-right"></i> Avantage : comprendre rapidement la cohérence de l'interface.</p>
+              
+            </div>
+            
+            <div class="swiper-slide">
+              <h1>Storyboard</h1>
+              <img src="images/storyboard-01.jpg" alt="" style="max-width:80%;max-height:80%;" />
+            </div>
+            
+            
+            <div class="swiper-slide">
+              <h1>Pourquoi faire des prototype basse fidélité&nbsp;?</h1>
+              
+              <p>Les méthodes traditionnelles prennent trop de temps 
+                <br /> <em> croquis</em> <i class="fa fa-long-arrow-right"></i> 
+                       <em> prototype logiciel </em> <i class="fa fa-long-arrow-right"></i>  
+                       <em> évaluation </em> <i class="fa fa-long-arrow-right"></i>  
+                       <em> itération </em>   
+              </p>
+              
+              <p>Si on peut faire des tests sur le croquis, ça ira plus vite !
+                <br /> <em> dessins</em> <i class="fa fa-long-arrow-right"></i> 
+                       <em> évaluation </em> <i class="fa fa-long-arrow-right"></i>  
+                       <em> itération </em> 
+                <br /> le croquis est un prototype 
+              </p>
+              
+              <p>Niveau maternelle
+                <br /> <i class="fa fa-long-arrow-right"></i> <em> tout le monde peut participer !</em> 
+              </p>
+              
+            </div>
+            
+            <div class="swiper-slide">
+              <h1>Pourquoi faire des prototype basse fidélité&nbsp;?</h1>
+              
+              <div class="left">
+                <ul>
+                  <li>Pas cher&nbsp;!</li>
+                  <li>Facile à réaliser</li>
+                  <li>Facile à changer</li>
+                  <li>Peut être très ambiguë</li>
+                  <li>Peut être modifier par l'utilisateur</li>
+                  <li>Peut convenir à n'importe quel plateforme</li>
+                </ul>
+              </div>
+              
+            </div>
+            
+            <div class="swiper-slide">
+              <h1>Prototype moyenne fidélité</h1>
+              
+              <p><i class="fa fa-chevron-right"></i> Avec un ordinateur&nbsp;!
+                <br /><i class="fa fa-long-arrow-right"></i> <em> émuler et simuler quelques fonctionnalitées du système</em>
+              </p>
+              
+              <p><i class="fa fa-chevron-right"></i> Objectif&nbsp;:
+                <br /><i class="fa fa-long-arrow-right"></i> <em> fournir un scenario sophistiqué mais limité à l'utilisateur pour tester</em>
+                <br /><i class="fa fa-long-arrow-right"></i> <em> tester des problèmes de design plus subtil</em>
+              </p>
+              
+              <p><i class="fa fa-chevron-right"></i> Danger&nbsp;:
+                <br /><i class="fa fa-long-arrow-right"></i> <em> les testeurs font des commentaires «à côté de la plaque»</em>
+                <br /><i class="fa fa-long-arrow-right"></i> <em> les commanditaires croient que c'est le produit fini&nbsp;!</em>
+              </p>
+            </div>
+            
+            <div class="swiper-slide">
+              <h1>Prototype moyenne fidélité</h1>
+              
+              <p>Approches pour limiter les fonctionnalités </p>
+              
+              <p><i class="fa fa-chevron-right"></i> Vertical&nbsp;:
+                <br /><i class="fa fa-long-arrow-right"></i> <em> réaliser une fonctionnalité complétement (ou quelques unes)</em>
+                <br /><i class="fa fa-long-arrow-right"></i> <em> le scénario peut être testé en profondeur</em>
+              </p>
+              
+              <p><i class="fa fa-chevron-right"></i> Horizontal&nbsp;:
+                <br /><i class="fa fa-long-arrow-right"></i> <em> réaliser toute l'interface sans les fonctionnalités</em>
+                <br /><i class="fa fa-long-arrow-right"></i> <em> une simulation, rien ne fonctionne vraiment</em>
+              </p>
+              
+              <p><i class="fa fa-chevron-right"></i> Idéal pour tester un scénario sans déviations possible</p>
+            </div>
+            
+            <div class="swiper-slide">
+              <h1>Prototype moyenne fidélité</h1>
+              
+              <p>Approches d'intégration du prototype dans le produit </p>
+              
+              <p><i class="fa fa-chevron-right"></i> Jetable&nbsp;:
+                <br /><i class="fa fa-long-arrow-right"></i> <em> le prototype est juste là pour résoudre un probleme</em>
+                <br />il faut qu'il soit rapide à faire, sinon c'est trop cher.
+              </p>
+              
+              <p><i class="fa fa-chevron-right"></i> Incrémental&nbsp;:
+                <br /><i class="fa fa-long-arrow-right"></i> <em> création de composants séparément</em>
+                <br /><i class="fa fa-long-arrow-right"></i> <em> les composants sont testé séparément pous ajouté au système final</em>
+              </p>
+              
+              <p><i class="fa fa-chevron-right"></i> Évolutif (méthode Agile)&nbsp;:
+                <br /><i class="fa fa-long-arrow-right"></i> <em> le prototype est modifié au fur et à mesure pour prendre en compte les changementde design</em>
+                <br /><i class="fa fa-long-arrow-right"></i> <em> éventuellement le prototype deviendra le produit final</em>
+              </p>
+              
+            </div>
+            
+            <div class="swiper-slide">
+              <h1>Dessins / Maquette</h1>
+              
+              <p><i class="fa fa-chevron-right"></i> Dessiner chaque scène de storyboard à l'ordinateur</p>
+              <p><i class="fa fa-chevron-right"></i> Un prototype horizontal</p>
+              <p><i class="fa fa-chevron-right"></i> Pas d'interaction</p>
+              
+            </div>
+            
+            <div class="swiper-slide">
+              <h1>Scripte / Simulation / Slideshows</h1>
+              
+              <p><i class="fa fa-chevron-right"></i> Réaliser le storyboard
+                <br /><i class="fa fa-long-arrow-right"></i> <em> avec n'importe quel outil de média</em>
+                <br /><i class="fa fa-long-arrow-right"></i> <em> transiton avec n'importe quel action de l'utilisateur</em>
+                <br /><i class="fa fa-long-arrow-right"></i> <em> vertical (avec un peu d'horizontal)</em></p>
+              <p><i class="fa fa-chevron-right"></i> L'utilisateur doit suivre le scénario
+                <br /><i class="fa fa-long-arrow-right"></i> <em> ça ressemble au système</em>
+                <br /><i class="fa fa-long-arrow-right"></i> <em> la moindre déviation annule la simulation</em> </p>
+              
+            </div>
+            
+            <div class="swiper-slide">
+              <h1>Interface builder</h1>
+              
+              <ul>
+                <li>outils et widgets classique</li>
+                <li>mode de test : les objets réagissent comme des vrais</li>
+                <li>très efficace pour montrer l'apparence… mais limiter à la bibliotèque</li>
+                <li>large prototype horizontal, </li>
+                <li>besoins de programation pour un prototypage vertical</li>
+              </ul>
+              
+              <p><a href="http://getbootstrap.com/getting-started/#examples" target="_blank">bootstrap</a></p>
+              
+            </div>
+            
+            <div class="swiper-slide">
+              <h1>Magicien d'Oz</h1>
+              
+              <p><i class="fa fa-chevron-right"></i> Une personne simule l'intelligence du système et interagis avec l'utilisateur </p>
+              
+              <p><i class="fa fa-chevron-right"></i> Avec des maquettes ou l'interface réèle</p>
+              
+              <p><i class="fa fa-chevron-right"></i> L'utilisateur se sert de l'ordinateur comme prévu</p>
+              
+              <p><i class="fa fa-chevron-right"></i> Le magicien (de préférence caché)
+                <br /><i class="fa fa-long-arrow-right"></i> <em> il interprète ce que fait l'utilisateur et réagis comme si c'était l'ordinateur qui le faisait</em> </p>
+              
+              <p><i class="fa fa-chevron-right"></i> Utile pour 
+                <br /><i class="fa fa-long-arrow-right"></i> <em> tester des fonctionnalités très complexe.</em>
+                <br /><i class="fa fa-long-arrow-right"></i> <em> tester des idées futuriste.</em> </p>
+              
+            </div>
+            
+            <div class="swiper-slide">
+              <h1>Magicien d'Oz</h1>
+              <img src="images/wizard-oz.jpg" alt="" style="max-width:80%;max-height:80%;" />
+            </div>
+            
+            <div class="swiper-slide">
+              <h1>Prototype haute fidélité</h1>
+              
+              <p><i class="fa fa-chevron-right"></i> Utilisez les outils qui seront dans le produit final </p>
+              
+              <p><i class="fa fa-chevron-right"></i> Le prototype ressemble fortement au produit final </p>
+              
+              <p><i class="fa fa-chevron-right"></i> Les utilisateurs auront tendance à croire que le système est complet</p>
+              
+            </div>
+            
+            <div class="swiper-slide">
+              <h1>Pourquoi faire des prototypes haute fidélité&nbsp;?</h1>
+              
+              <p><i class="fa fa-chevron-right"></i> Ça parait réèle </p>
+              <p><i class="fa fa-chevron-right"></i> Ça permet de reproduire les interactions </p>
+              <p><i class="fa fa-chevron-right"></i> Ça impressione le client</p>
+              <p><i class="fa fa-chevron-right"></i> On peut tout montrer</p>
+              <p><i class="fa fa-chevron-right"></i> On peut montrer les détails</p>
+              
+            </div>
+            
+            <div class="swiper-slide">
+              <h1>Prototypes haute fidélité</h1>
+              <img src="images/prototype.jpg" alt="" style="max-width:80%;max-height:80%;" />
+              <p><a href="http://www.commitstrip.com/fr/2015/03/page/8/" target="_blank">CommitStrip.com</a></p>
+            </div>
+            
+            <div class="swiper-slide">
+              <h1>Les croquis plutôt que la haute fidélité</h1>
+              
+              <p> Les prototypes haute fidélité sont problématique&nbsp;:
+                <br /><i class="fa fa-long-arrow-right"></i> <em> les utilisateurs croient que c'est réèle</em>
+                <br /><i class="fa fa-long-arrow-right"></i> <em> les utilisateurs voient les petits détails plutôt que les grands principes</em>
+                <br /><i class="fa fa-long-arrow-right"></i> <em> les développeur vont avoir le blues quand on va tout jeter…</em>
+               </p>
+              
+              <p> Les prototypes basse fidélité évite cela&nbsp;:
+                <br /><i class="fa fa-long-arrow-right"></i> <em> c'est facile à changer</em>
+                <br /><i class="fa fa-long-arrow-right"></i> <em> les utilisateurs voient les grands principes (structures, fonctionnalités)</em>
+                <br /><i class="fa fa-long-arrow-right"></i> <em> c'est jetable</em>
+               </p>
+
+              <p><i class="fa fa-chevron-right"></i> Avant de faire de la haute qualité, assuré vous que la basse est bonne&nbsp;! </p>
+               
+            </div>
+            
+            <div class="swiper-slide">
+              <h1>Les croquis plutôt que la haute fidélité</h1>
+              
+              <p> Première ébauches <br /> <i class="fa fa-long-arrow-down"></i>  </p>
+             
+              <div class="col-50">
+                Recherche de plusieurs représentations <br /> Brainstorming <br /> Chosir une représentation <br /> On se concentre sur la tâche
+                <br /> Affinage de l'interface <br /> Évaluation heuristique
+                <br /><br /> Test d'érgonomie 
+                <br /> <br /> Tests en situation
+                <br /> <br /> Tests A/B
+              </div>
+              
+              <div class="col-50">
+                <strong>Prototype Basse Fidélité</strong>
+                <br /><br /><br /><br />
+                <strong>Prototype Moyenne Fidélité</strong>
+                <br /><br /><br />
+                <strong>Prototype Haute Fidélité</strong><br /><br /><br />
+                <strong>Système fonctionnel</strong>
+              </div>
+
+              <div class="clear"></div>
+              <p> <i class="fa fa-long-arrow-down"></i><br />Travail avancé  </p>
+               
+            </div>
+            
+            <div class="swiper-slide">
+              <h1>Conclusions</h1>
+              
+              <p> Prototype&nbsp;:
+                <br /><i class="fa fa-long-arrow-right"></i> <em> ça permet à l'utilisateur de réagir aux propositions d'interface et de proposer des changements</em>
+                <br /><i class="fa fa-long-arrow-right"></i> <em> croquis, maquettes papier et storyboard sont plus adapté pour faire des choix de représentation</em>
+                <br /><i class="fa fa-long-arrow-right"></i> <em> pour affiner l'inteface l'utilisation d'outils avancées est plus adequat</em>
+               </p>
+               
+              <p> Méthode de prototypage&nbsp;:
+                <br /><i class="fa fa-long-arrow-right"></i> <em> vertical, horizontal, scénario…</em>
+                <br /><i class="fa fa-long-arrow-right"></i> <em> croquis, maquettes papier et storyboard</em>
+                <br /><i class="fa fa-long-arrow-right"></i> <em> utilisation de bibliothèque d'outils et de widget</em>
+                <br /><i class="fa fa-long-arrow-right"></i> <em> simulations programmées</em>
+                <br /><i class="fa fa-long-arrow-right"></i> <em> magicien d'Oz</em>
+               </p>
+               
+            </div>
+            
+            
+            
+            
+        </div>
+        <div class="cours-footer">IHM, Interface Homme Machine — CC BY SA Nathanaël Martel</div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <div class="swiper-scrollbar"></div>
+        <!-- Add Arrows -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="../js/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        //pagination: '.swiper-pagination',
+        slidesPerView: 1,
+        //paginationClickable: true,
+        scrollbar: '.swiper-scrollbar',
+        scrollbarHide: false,
+        spaceBetween: 30,
+        keyboardControl: true,
+        nextButton: '.swiper-button-next',
+        prevButton: '.swiper-button-prev',
+    });
+    </script>
+</body>
+</html>
