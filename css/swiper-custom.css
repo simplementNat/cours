@@ -128,4 +128,9 @@
     width: 0;
     height: 0;
   }
+  
+ .swiper-slide .serre li,  .swiper-slide .serre ol,  .swiper-slide .serre ul {
+  margin-bottom: 0;
+  margin-top: 0;
+  }
     
