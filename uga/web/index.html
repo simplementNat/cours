@@ -12,7 +12,7 @@
     <meta name="googlebot" content="index,follow,snippet,archive">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Introduction aux Bases de Données — Nathanaël Martel</title>
+    <title>Web — Nathanaël Martel</title>
 
 
 
@@ -54,6 +54,17 @@
 
     <!-- CSS Animations -->
     <link href="/assets/css/animate.css" rel="stylesheet">
+    <style>
+      .td-item {
+        width:18%;
+      }
+      .td-item .reference a {
+        min-height:0;
+      }
+      .td-item .reference {
+        margin-bottom:0;
+      }
+    </style>
 
     <!-- Favicon -->
     <link rel="shortcut icon" href="favicon.png">
@@ -63,7 +74,7 @@
 
     <!-- Responsivity for older IE -->
     <!--[if lt IE 9]>
-    <script src="/assets/js/respond.min.js"></script>
+    <script src="../../js/respond.min.js"></script>
 <![endif]-->
 </head>
 
@@ -84,12 +95,10 @@
             <div class="navbar-collapse collapse" id="navigation">
 
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#intro">Intro</a>
-                    </li>
-                    <li><a href="#references">Le Cours</a>
-                    </li>
-                    <li><a href="#tp">Les TP</a>
-                    </li>
+                    <li class="active"><a href="#intro">Intro</a></li>
+                    <li><a href="#cours">Le Cours</a></li>
+                    <li><a href="#TD">Projet</a></li>
+                    <li><a href="#TP">TP</a></li>
                 </ul>
             </div>
             <!--/.nav-collapse -->
@@ -107,11 +116,12 @@
         <!-- *** INTRO IMAGE ***
 _________________________________________________________ -->
         <div id="intro" class="clearfix">
-            <div class="item" style="background-image:url(../../images/bdd.jpg);">
+            <div class="item">
                 <div class="container">
                     <div class="row">
                         <div class="carousel-caption">
-                            <h1>Bases de Données</h1>
+                            <h1>IHM</h1>
+                            <h2>Interface Homme Machine</h2>
                         </div>
                     </div>
                 </div>
@@ -125,14 +135,14 @@ _________________________________________________________ -->
 
         <!-- *** REFERENCES IMAGE ***
 _________________________________________________________ -->
-        <div class="section" id="references">
+        <div class="section" id="cours">
             <div class="container">
                 <div class="col-sm-12">
 
                     <div class="mb20">
                         <!-- <h2 class="title" data-animate="fadeInUp">Le Cours</h2> -->
 
-                        <p class="lead" data-animate="fadeInUp">Gérer des données structurées</p>
+                        <p class="lead" data-animate="fadeInUp">S'assurer que les systèmes informatiques sont bien adaptés aux besoins des utilisateurs.</p>
                     </div>
 
                     <div id="detail">
@@ -150,156 +160,55 @@ _________________________________________________________ -->
 
                     <div id="references-masonry" data-animate="fadeInUp">
 
-						         	<div class="reference-item">
-			                    <div class="reference">
-			                        <a href="00-database-introduction.pdf" download>
+						    <div class="reference-item">
+			                    <div class="reference" style="opacity:.6;">
+			                        <a href="#">
 								                <h3 class="reference-title">00</h3>
-								                <p>Introduction</p>
+								                <p>HTML</p>
 			                        </a>
 			                    </div>
 			                </div>
 
-						          <div class="reference-item">
+						    <div class="reference-item">
 			                    <div class="reference">
-			                        <a href="01-database-modélisation.pdf" download>
+			                        <a href="01-CSS.pdf">
 								                <h3 class="reference-title">01</h3>
-								                <p>Modélisation</p>
+								                <p>CSS</p>
 			                        </a>
 			                    </div>
 			                </div>
 
-						          <div class="reference-item">
+						    <div class="reference-item">
 			                    <div class="reference">
-			                        <a href="02-database-consultation.pdf" download>
+			                        <a href="02-javascript.pdf">
 								                <h3 class="reference-title">02</h3>
-								                <p>Consultation <br><code>SELECT</code></p>
+								                <p>Javascript</p>
 			                        </a>
 			                    </div>
 			                </div>
 
-						          <div class="reference-item">
+						    <div class="reference-item">
 			                    <div class="reference">
-			                        <a href="03-database-insertion.pdf" download>
+			                        <a href="03-css-positionnement.pdf">
 								                <h3 class="reference-title">03</h3>
-								                <p>Insertion <br><code>INSERT</code></p>
+								                <p>CSS Positionnement</p>
 			                        </a>
 			                    </div>
 			                </div>
 
-						          <div class="reference-item">
-			                    <div class="reference">
-			                        <a href="04-database-mise-a-jour.pdf" download>
-								                <h3 class="reference-title">04</h3>
-								                <p>Mise à jour <br><code>UPDATE</code></p>
-			                        </a>
-			                    </div>
-			                </div>
-
-						          <div class="reference-item">
-			                    <div class="reference">
-			                        <a href="05-database-suppression.pdf" download>
-								                <h3 class="reference-title">05</h3>
-								                <p>Suppression <br><code>DELETE</code></p>
-			                        </a>
-			                    </div>
-			                </div>
-
-						          <div class="reference-item">
-			                    <div class="reference">
-			                        <a href="06-database-tree.pdf" download>
-								                <h3 class="reference-title">06</h3>
-								                <p>Arbre</p>
-			                        </a>
-			                    </div>
-			                </div>
-
-						          <div class="reference-item">
-			                    <div class="reference">
-			                        <a href="07-database-architecture-n-tiers.pdf" download>
-								                <h3 class="reference-title">07</h3>
-								                <p>Architecture n-tiers</p>
-			                        </a>
-			                    </div>
-			                </div>
-
-
-						          <div class="reference-item">
-			                    <div class="reference">
-			                        <a href="08-database-bases-dev-web.pdf" download>
-								                <h3 class="reference-title">08</h3>
-								                <p>PHP / HTML</p>
-			                        </a>
-			                    </div>
-			                </div>
-
-
-						          <div class="reference-item">
-			                    <div class="reference">
-			                        <a href="09-database-performances.pdf" download>
-								                <h3 class="reference-title">09</h3>
-								                <p>Performance</p>
-			                        </a>
-			                    </div>
-			                </div>
-
-
-						          <div class="reference-item">
-			                    <div class="reference">
-			                        <a href="10-database-securite.pdf" download>
-								                <h3 class="reference-title">10</h3>
-								                <p>Securité</p>
-			                        </a>
-			                    </div>
-			                </div>
-
-
-						          <div class="reference-item">
-			                    <div class="reference">
-			                        <a href="11-database-orm.pdf" download>
-								                <h3 class="reference-title">11</h3>
-								                <p>ORM</p>
-			                        </a>
-			                    </div>
-			                </div>
-
-
-						          <div class="reference-item">
-			                    <div class="reference">
-			                        <a href="12-database-factorisation.pdf" download>
-								                <h3 class="reference-title">12</h3>
-								                <p>Factorisation</p>
-			                        </a>
-			                    </div>
-			                </div>
-
-
-						          <div class="reference-item">
-			                    <div class="reference">
-			                        <a href="13-database-contenu.pdf" download>
-								                <h3 class="reference-title">13</h3>
-								                <p>Contenu</p>
-			                        </a>
-			                    </div>
-			                </div>
                     </div>
-                    <!-- /#references-masonry -->
 
                 </div>
-                <!-- /.12 -->
             </div>
-            <!-- /.container -->
         </div>
-        <!-- /.section -->
 
-        <!-- *** REFERENCES END *** -->
 
-        <div class="section" id="tp">
+
+        <div class="section" id="TP">
             <div class="container">
                 <div class="col-sm-12">
 
                     <div class="mb20">
-                        <!-- <h2 class="title" data-animate="fadeInUp">Le Cours</h2> -->
-
                         <p class="lead" data-animate="fadeInUp">TP</p>
                     </div>
 
@@ -314,58 +223,62 @@ _________________________________________________________ -->
                         <div id="detail-content"></div>
 
                     </div>
-                    <!-- Reference detail -->
 
                     <div id="references-masonry" data-animate="fadeInUp">
 
+						         	<div class="reference-item td-item">
+			                    <div class="reference">
+			                        <a href="TP1.pdf">
+								                <h3 class="reference-title">01</h3>
+								                <p>TP 1</p>
+			                        </a>
+			                    </div>
+                          <a href="TP1.odt">(format odt)</a>
+			                </div>
 
-                      <div class="reference-item">
-                          <div class="reference">
-                              <a href="TP1.odt" download>
-                                <h3 class="reference-title">01</h3>
-                                <p>Modélisation</p>
-                              </a>
-                          </div>
-                      </div>
-
-                      <div class="reference-item">
-                          <div class="reference">
-                              <a href="TP2.odt" download>
-                                <h3 class="reference-title">02</h3>
-                                <p>Requête</p>
-                              </a>
-                          </div>
-                      </div>
-
-                      <div class="reference-item">
-                          <div class="reference">
-                              <a href="TP3.odt" download>
-                                <h3 class="reference-title">03</h3>
-                                <p>Requête</p>
-                              </a>
-                          </div>
-                      </div>
-
-                      <div class="reference-item">
-                          <div class="reference">
-                              <a href="TP4.odt" download>
-                                <h3 class="reference-title">04</h3>
-                                <p>PHP <br/>Blog</p>
-                              </a>
-                          </div>
-                      </div>
+						         	<div class="reference-item td-item">
+			                    <div class="reference">
+			                        <a href="TP2.pdf">
+								                <h3 class="reference-title">02</h3>
+								                <p>TP 2</p>
+			                        </a>
+			                    </div>
+                          <a href="TP2.odt">(format odt)</a>
+			                </div>
 
 
+						         	<div class="reference-item td-item">
+			                    <div class="reference">
+			                        <a href="TP3.pdf">
+								                <h3 class="reference-title">03</h3>
+								                <p>TP 3</p>
+			                        </a>
+			                    </div>
+                          <a href="TP3.odt">(format odt)</a>
+			                </div>
 
-                      <div class="reference-item">
-                          <div class="reference">
-                              <a href="TP5.odt" download>
-                                <h3 class="reference-title">05</h3>
-                                <p>PHP<br/>Suite</p>
-                              </a>
-                          </div>
-                      </div>
+
 <!--
+						         	<div class="reference-item td-item">
+			                    <div class="reference">
+			                        <a href="TD4.pdf">
+								                <h3 class="reference-title">04</h3>
+								                <p>TD 4</p>
+			                        </a>
+			                    </div>
+                          <a href="TD4.odt">(format odt)</a>
+			                </div>
+
+
+						         	<div class="reference-item td-item">
+			                    <div class="reference">
+			                        <a href="TD5.pdf">
+								                <h3 class="reference-title">05</h3>
+								                <p>TD 5</p>
+			                        </a>
+			                    </div>
+                          <a href="TD5.odt">(format odt)</a>
+			                </div>
 -->
 
                     </div>
@@ -376,7 +289,6 @@ _________________________________________________________ -->
             </div>
             <!-- /.container -->
         </div>
-        <!-- /.section -->
 
         <!-- *** REFERENCES END *** -->
 
@@ -394,13 +306,14 @@ _________________________________________________________ -->
                         <p class="social">
                             <a href="http://fr.linkedin.com/pub/nathana%C3%ABl-martel/53/997/152" class="external linkedin" target="_blank"><i class="fa fa-linkedin"></i></a>
                             <a href="https://twitter.com/simplementNat" class="external twitter" target="_blank"><i class="fa fa-twitter"></i></a>
+                            <a href="https://www.facebook.com/nathanael.martel.9" class="external facebook" target="_blank"><i class="fa fa-facebook"></i></a>
                             <a href="mailto:nathanael.martel@univ-grenoble-alpes.fr" class="email"><i class="fa fa-envelope"></i></a>
                         </p>
                     </div>
                     <!-- /.6 -->
 
                     <div class="col-sm-6">
-                        <p><a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY SA</a> <a href="https://nathanaelmartel.net/">Nathanaël Martel</a></p>
+                        <p><a href="http://creativecommons.org/licenses/by-sa/3.0/">CC BY SA</a> <a href="http://nathanael.fam-martel.eu/">Nathanaël Martel</a></p>
                     </div>
 
                 </div>
